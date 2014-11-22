@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+ <info organisation="com.sample" module="sample-ivy-portlet" status="release" revision="1.1">
+ </info>
+  <publications>
+    <artifact name="sample-ivy-portlet" type="war" ext="war" />
+ </publications>
+ <dependencies>
+  <dependency org="commons-lang" name="commons-lang" rev="2.4" />
+  <dependency org="joda-time" name="joda-time" rev="2.4" />
+  <dependency org="com.google.guava" name="guava" rev="17.0" />
+ </dependencies>
+</ivy-module>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE project>
+
+<project name="sample-ivy-portlet" basedir="." default="deploy">
+	<property name="ivy.publish.resolver" value="local-m2"/>
+	<import file="../build-common-portlet.xml" />
+</project>
